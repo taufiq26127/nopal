@@ -19,7 +19,7 @@ def app():
         try:
             # Muat model spaCy (ganti path jika menggunakan model custom)
             nlp = spacy.load(
-                "models\de_core_news_sm\de_core_news_sm-3.7.0"
+                 "./models/de_core_news_sm/de_core_news_sm-3.7.0"
             )  # Pastikan path benar
 
             # Analisis teks
